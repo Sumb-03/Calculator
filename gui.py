@@ -27,6 +27,7 @@ operator3 = Button(window, height=5, width=9, text='-', font=('Arial', 10))
 operator4 = Button(window, height=5, width=9, text='+', font=('Arial', 10))
 dot = Button(window, height=5, width=9, text='.', font=('Arial', 10))
 operator5 = Button(window, height=5, width=9, text='=', font=('Arial', 10))
+clear = Button(window, height=5, width=9, text='C', font=('Arial', 10))
 
 # Grid
 number0.grid(column=2, row=4)
@@ -45,7 +46,7 @@ operator3.grid(column=4, row=3)
 operator4.grid(column=4, row=4)
 operator5.grid(column=4, row=0)
 dot.grid(column=3, row=4)
-
+clear.grid(column=1, row=4)
 
 
 
