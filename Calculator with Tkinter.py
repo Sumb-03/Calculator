@@ -69,19 +69,19 @@ def button_equal():
 
 # Buttons
 
-number0 = Button(window, height=5, width=9, text='0', font=('Arial', 10, 'bold'), command=lambda: button_enter(0))
+number0 = Button(window, height=5, width=9, text='0', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(0))
 
-number1 = Button(window, height=5, width=9, text='1', font=('Arial', 10, 'bold'), command=lambda: button_enter(1))
-number2 = Button(window, height=5, width=9, text='2', font=('Arial', 10, 'bold'), command=lambda: button_enter(2))
-number3 = Button(window, height=5, width=9, text='3', font=('Arial', 10, 'bold'), command=lambda: button_enter(3))
+number1 = Button(window, height=5, width=9, text='1', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(1))
+number2 = Button(window, height=5, width=9, text='2', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(2))
+number3 = Button(window, height=5, width=9, text='3', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(3))
 
-number4 = Button(window, height=5, width=9, text='4', font=('Arial', 10, 'bold'), command=lambda: button_enter(4))
-number5 = Button(window, height=5, width=9, text='5', font=('Arial', 10, 'bold'), command=lambda: button_enter(5))
-number6 = Button(window, height=5, width=9, text='6', font=('Arial', 10, 'bold'), command=lambda: button_enter(6))
+number4 = Button(window, height=5, width=9, text='4', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(4))
+number5 = Button(window, height=5, width=9, text='5', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(5))
+number6 = Button(window, height=5, width=9, text='6', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(6))
 
-number7 = Button(window, height=5, width=9, text='7', font=('Arial', 10, 'bold'), command=lambda: button_enter(7))
-number8 = Button(window, height=5, width=9, text='8', font=('Arial', 10, 'bold'), command=lambda: button_enter(8))
-number9 = Button(window, height=5, width=9, text='9', font=('Arial', 10, 'bold'), command=lambda: button_enter(9))
+number7 = Button(window, height=5, width=9, text='7', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(7))
+number8 = Button(window, height=5, width=9, text='8', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(8))
+number9 = Button(window, height=5, width=9, text='9', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter(9))
 
 operator_divide = Button(window, height=5, width=9, text='/', font=('Arial', 10, 'bold'), bg='light grey', command=button_divide)
 operator_multiply = Button(window, height=5, width=9, text='*', font=('Arial', 10, 'bold'), bg='light grey', command=button_multiply)
@@ -89,8 +89,8 @@ operator_subtract = Button(window, height=5, width=9, text='-', font=('Arial', 1
 operator_add = Button(window, height=5, width=9, text='+', font=('Arial', 10, 'bold'), bg='light grey', command=button_add)
 operator_equal = Button(window, height=5, width=9, text='=', font=('Arial', 10, 'bold'), bg='light blue', command=button_equal)
 
-dot = Button(window, height=5, width=9, text='.', font=('Arial', 10, 'bold'), command=lambda: button_enter('.'))
-clear = Button(window, height=5, width=9, text='C', font=('Arial', 10, 'bold'), command=button_clear)
+dot = Button(window, height=5, width=9, text='.', font=('Arial', 10, 'bold'), bg='white', command=lambda: button_enter('.'))
+clear = Button(window, height=5, width=9, text='C', font=('Arial', 10, 'bold'), bg='white', command=button_clear)
 
 # Grid
 
