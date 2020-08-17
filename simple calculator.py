@@ -24,11 +24,7 @@ else:
 # Try again
 answer = input('\nTry Again? (y/n): ')
 if answer == 'y':
-    input('\nPress F5 to Restart')
-    os.execl(sys.executable, sys.executable, *sys.argv)
+    os.startfile(__file__)
+    sys.exit()
 elif answer == 'n':
     input('\nPress Any Key to Exit')
-
-
-
-
