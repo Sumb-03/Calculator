@@ -3,8 +3,9 @@ from tkinter import *
 # Window
 
 window = Tk()
-window.title('Basic Calculator')
+window.title('Calculator')
 window.geometry('328x460')
+window.iconphoto(False, PhotoImage(file='C:/Users/User/Desktop/calculator.png'))
 
 # Screen
 
