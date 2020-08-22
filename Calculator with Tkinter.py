@@ -4,8 +4,9 @@ from tkinter import *
 
 window = Tk()
 window.title('Calculator')
-window.geometry('328x460')
-window.iconphoto(False, PhotoImage(file='C:/Users/User/Desktop/calculator.png'))
+window.maxsize(328, 460)
+window.minsize(328, 460)
+
 
 # Screen
 
